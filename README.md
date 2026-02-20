@@ -46,6 +46,6 @@ Muitas das **dependências** referentes ao Linux podem ser ignoradas caso se des
 - Clone o repositório:
 
 ```bash
-git clone https://github.com/usuario/nome-do-projeto.git
+git clone https://github.com/Alberth-Farias/Menu-gtk-python.git
 ```
 - Execute o arquivo **main.py**
