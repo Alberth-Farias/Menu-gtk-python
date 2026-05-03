@@ -24,20 +24,7 @@ class Database:
     def close_task(self, id):
         self.cursor.execute("DELETE FROM tasks WHERE id = ?", (id,))
         self.connect.commit()
-        print(f"aqui chegou id = {id}")
 
     def show_tasks(self):
         self.cursor.execute("SELECT * FROM tasks")
         return self.cursor.fetchall()
-
-
-
-
-
-
-
-
-
-
-
-
