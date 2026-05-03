@@ -1,0 +1,4 @@
+psutil
+pydbus
+PyGObject
+pycairo
